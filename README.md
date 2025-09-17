@@ -1,5 +1,5 @@
 # LibEER: A Comprehensive Benchmark and Algorithm Library for EEG-based Emotion Recognition
-Paper Link:[[2410.09767] LibEER: A Comprehensive Benchmark and Algorithm Library for EEG-based Emotion Recognition](https://arxiv.org/abs/2410.09767)
+Paper Link:[LibEER: A Comprehensive Benchmark and Algorithm Library for EEG-based Emotion Recognition | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/document/11150759)
 ## Project Description
 LibEER estabilshes a unified evaluation framework with standardized experimental settings, enabling unbiased evaluations of over representative deep learning-based EER models across the four most commonly used datasets.
 - **Standardized Benchmark**: LibEER provides a unified benchmark for fair comparisons in EER research, addressing inconsistencies in datasets, settings, and metrics, making it easier to evaluate various models.
