@@ -234,21 +234,20 @@ round_metric = train(model=model, datasets_train=datasets_train, dataset_val=dat
 - [HSLT](https://www.sciencedirect.com/science/article/abs/pii/S0893608024005483)
 ## Citations
 ```
-@inproceeding{liu2024libeercomprehensivebenchmarkalgorithm,
-      title={LibEER: A Comprehensive Benchmark and Algorithm Library for EEG-based Emotion Recognition}, 
-      author={Huan Liu and Shusen Yang and Yuzhe Zhang and Mengze Wang and Fanyu Gong and Chengxi Xie and Guanjian Liu and Zejun Liu and Yong-Jin Liu and Bao-Liang Lu and Dalin Zhang},
-      year={2024},
-      eprint={2410.09767},
-      archivePrefix={arXiv},
-      primaryClass={cs.HC},
-      url={https://arxiv.org/abs/2410.09767}, 
+@article{liu2025libeer,
+  title={Libeer: A comprehensive benchmark and algorithm library for eeg-based emotion recognition},
+  author={Liu, Huan and Yang, Shusen and Zhang, Yuzhe and Wang, Mengze and Gong, Fanyu and Xie, Chengxi and Liu, Guanjian and Liu, Zejun and Liu, Yong-Jin and Lu, Bao-Liang and others},
+  journal={IEEE Transactions on Affective Computing},
+  year={2025},
+  publisher={IEEE}
 }
-@article{Liu2024EEGBasedME, 
-	title={EEG-Based Multimodal Emotion Recognition: A Machine Learning Perspective},
-	author={Huan Liu and Tianyu Lou and Yuzhe Zhang and Yixiao Wu and Yang Xiao and Christian S. Jensen and Dalin Zhang}, 
-	journal={IEEE Transactions on Instrumentation and Measurement}, 
-	year={2024}, 
-	volume={73}, 
-	pages={1-29}, 
-	url={https://api.semanticscholar.org/CorpusID:267978819} }
+@article{liu2024eeg,
+  title={EEG-based multimodal emotion recognition: A machine learning perspective},
+  author={Liu, Huan and Lou, Tianyu and Zhang, Yuzhe and Wu, Yixiao and Xiao, Yang and Jensen, Christian S and Zhang, Dalin},
+  journal={IEEE Transactions on Instrumentation and Measurement},
+  volume={73},
+  pages={1--29},
+  year={2024},
+  publisher={IEEE}
+}
 ```
