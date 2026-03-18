@@ -144,14 +144,14 @@ class GraphConv(nn.Module):
         if self.k == 1:
             return t.unsqueeze(1)
         if self.k == 2:
-            return torch.cat((t.unsqueeze(1), torch.matmul(lap, x).unsqueeze(1)), dim=1)
+            return torch.cat((x.unsqueeze(1), torch.matmul(lap, x).unsqueeze(1)), dim=1)
         elif self.k > 2:
             # T_0 of chebyshev polynomials, just x (identity matrix multiply x), shape: (batch, ele_channel, in_channel)
             tk_minus_one = x
             # T_1 of chebyshev polynomials, shape: (batch, ele_channel, in_channel)
             tk = torch.matmul(lap, x)
             # add the T_0, T_1, T_2 items to the Chebyshev components, t shape: (batch, 3, ele_channel, in_channel)
-            t = torch.cat((t.unsqueeze(1), tk_minus_one.unsqueeze(1), tk.unsqueeze(1)), dim=1)
+            t = torch.cat((x.unsqueeze(1), tk_minus_one.unsqueeze(1), tk.unsqueeze(1)), dim=1)
             for i in range(3, self.k):
                 # T_(k-1) and T_(k-2)
                 tk_minus_two, tk_minus_one = tk_minus_one, tk
